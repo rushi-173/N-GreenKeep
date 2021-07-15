@@ -1,0 +1,106 @@
+.right-bar{
+    flex: 75%;
+    background-color: #e7ffcc;
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap'); */
+
+.right-bar-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 117.5px;
+    padding: 1.5rem 2rem .8rem ;
+    color: #262626;
+    font-size: .8rem;
+    font-weight: 300;
+    border-bottom: .5px ridge rgb(73, 72, 72);
+    background-color: white;
+}
+.add-tag{
+    display: flex;
+}
+.header-upper{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    opacity: .8;
+    background-color: white;
+}
+
+.header-upper svg{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+
+.header-lower{
+    /* opacity: .7; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-lower > div{
+    color: red;
+    opacity: 1;
+    font-style: italic;
+}
+
+.right-bar-content{
+    height: calc(100% );
+    border-bottom: .5px ridge rgb(73, 72, 72);
+}
+
+.content-title input{
+    /* font-family: 'Arvo', serif; */
+    font-family: 'Roboto';
+    color: #262626;
+    width: 96%;
+    background-color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    font-weight: 500;
+    outline: none;
+    margin: 1rem;
+}
+
+.content-text textarea{
+    resize: none;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    font-family: 'Roboto';
+    color: #262626;
+    height: 500px;
+    width: 96%;
+    background-color: white;
+    border: none;
+    padding: 2rem;
+    margin: 1rem;
+    outline: none;
+}
+
+.right-bar-footer{
+    align-items: center;
+    width: 100%;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-bar-footer svg{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    color : #262626;
+}
+
+.right-bar-footer button{
+    background-color: #00A82D;
+    outline:none;
+    border: none;
+    padding: .5rem;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}

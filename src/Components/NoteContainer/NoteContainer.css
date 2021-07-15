@@ -1,0 +1,49 @@
+.one-note{
+    border-top: .5px ridge white;;
+    border-bottom: .5px ridge white;
+    border-right: 3px ridge transparent;
+    border-left: 3px ridge transparent;
+    color : #262626;
+    padding: .8rem 1.8rem;
+    font-size: .8rem;
+    line-height: 1.5rem;
+    min-height: 130px;
+    height: max-content;
+    cursor: pointer;
+    transition: all .3s ease;
+    /* border : 3px ridge transparent; */
+}
+
+.one-note:hover{
+    background-color: #e7ffcc;
+}
+
+.active-note{
+    border : 3px ridge #00A82D;
+    background-color: white;
+}
+
+.note-header{
+    font-weight: 500;
+}
+
+.note-text{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+    font-weight: 300;
+    opacity: .7;
+    height: 50px;
+}
+
+.note-date-time{
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: .8px;
+    font-size: .7rem;
+    opacity: .7;
+    font-weight: 300;
+}
+
+

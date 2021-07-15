@@ -1,0 +1,47 @@
+.notes-nav-bar{
+    flex : 25%;
+    background-color: #f3f3f3;
+    width: 400px;
+    height: 90vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    border-bottom: 1px solid rgba(119, 119, 119, 0.459);
+}
+
+.current-tag{
+    color : #212121;
+    padding: 0rem 1.8rem;
+    font-size: 1.2rem;
+    opacity: .9;
+}
+
+.note-count{
+    padding: .57rem 1.8rem;
+    font-size: .8rem;
+    /* border-bottom: .1px solid rgb(73, 72, 72); */
+    color: #212121;
+    opacity: .7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.note-count svg{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+
+
+.notes-container{
+    height : 100%;
+    overflow: auto;
+}

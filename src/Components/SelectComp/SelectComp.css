@@ -1,0 +1,31 @@
+.select-comp{
+    position: relative;
+}
+
+.select-comp .drop-btn{
+    background-color: rgba(255, 255, 255, 0.829) ;
+    border-radius: 50px;
+    width: 100px;
+    color: #404040;
+    font-weight: 300;
+}
+
+.dropdown-content{
+    padding: .4rem 0;
+    width: 100px;
+    color: rgb(51, 51, 51);
+    background-color: #F5F5F5;
+    position: absolute;
+    top: 40px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.dropdown-item{
+    font-size: .8rem;
+    cursor: pointer;
+    padding: .5rem 1rem;
+}
+
+.dropdown-item:hover{
+    background-color: #C5E1A5;
+}

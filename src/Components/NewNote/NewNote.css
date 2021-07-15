@@ -1,0 +1,23 @@
+.new-note{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    color: #252525;
+    cursor: pointer;
+    transition: all .3s ease;
+    background-color: white;
+    margin-bottom: 1rem;
+}
+
+.new-note:hover {
+    background-color: #e7ffcc;
+}
+
+.new-note svg{
+    width: 35px;
+    height: 35px;
+}
+
+.new-note >  div{
+    padding-left: 10px;
+}
